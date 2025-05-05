@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dartmouth-health-obesity-education/static/css/main.9c0e17fd.css",
-    "main.js": "/dartmouth-health-obesity-education/static/js/main.61a72695.js",
+    "main.css": "/dartmouth-health-obesity-education/static/css/main.93a5d1fb.css",
+    "main.js": "/dartmouth-health-obesity-education/static/js/main.980b6df8.js",
     "static/js/453.56ef0f56.chunk.js": "/dartmouth-health-obesity-education/static/js/453.56ef0f56.chunk.js",
     "static/media/SetPointTheory.mp4": "/dartmouth-health-obesity-education/static/media/SetPointTheory.1804d0881f482f4d4abb.mp4",
     "static/media/LandingImage.png": "/dartmouth-health-obesity-education/static/media/LandingImage.1ebe63a5a8209cf96e52.png",
@@ -35,12 +35,12 @@
     "static/media/WeightLossTreatmentImage.png": "/dartmouth-health-obesity-education/static/media/WeightLossTreatmentImage.a7f647e83fdce910d44d.png",
     "static/media/ThinkingImage.png": "/dartmouth-health-obesity-education/static/media/ThinkingImage.9104f6bb5c503ef4179d.png",
     "index.html": "/dartmouth-health-obesity-education/index.html",
-    "main.9c0e17fd.css.map": "/dartmouth-health-obesity-education/static/css/main.9c0e17fd.css.map",
-    "main.61a72695.js.map": "/dartmouth-health-obesity-education/static/js/main.61a72695.js.map",
+    "main.93a5d1fb.css.map": "/dartmouth-health-obesity-education/static/css/main.93a5d1fb.css.map",
+    "main.980b6df8.js.map": "/dartmouth-health-obesity-education/static/js/main.980b6df8.js.map",
     "453.56ef0f56.chunk.js.map": "/dartmouth-health-obesity-education/static/js/453.56ef0f56.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c0e17fd.css",
-    "static/js/main.61a72695.js"
+    "static/css/main.93a5d1fb.css",
+    "static/js/main.980b6df8.js"
   ]
 }
