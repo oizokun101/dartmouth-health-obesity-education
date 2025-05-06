@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dartmouth-health-obesity-education/static/css/main.93a5d1fb.css",
-    "main.js": "/dartmouth-health-obesity-education/static/js/main.980b6df8.js",
+    "main.css": "/dartmouth-health-obesity-education/static/css/main.018664e9.css",
+    "main.js": "/dartmouth-health-obesity-education/static/js/main.ffdb8a14.js",
     "static/js/453.56ef0f56.chunk.js": "/dartmouth-health-obesity-education/static/js/453.56ef0f56.chunk.js",
     "static/media/SetPointTheory.mp4": "/dartmouth-health-obesity-education/static/media/SetPointTheory.1804d0881f482f4d4abb.mp4",
     "static/media/LandingImage.png": "/dartmouth-health-obesity-education/static/media/LandingImage.1ebe63a5a8209cf96e52.png",
@@ -16,8 +16,12 @@
     "static/media/VisitsTimeline.png": "/dartmouth-health-obesity-education/static/media/VisitsTimeline.e6b2aee6523e6de4f1bd.png",
     "static/media/HeartImage.png": "/dartmouth-health-obesity-education/static/media/HeartImage.9b0b70c546dbca2b294d.png",
     "static/media/DNAImage.png": "/dartmouth-health-obesity-education/static/media/DNAImage.048a8e79d882cb48deae.png",
+    "static/media/CrowdedThoughts.png": "/dartmouth-health-obesity-education/static/media/CrowdedThoughts.82080b8414c1d79d7eac.png",
+    "static/media/EatingDisorderChart.png": "/dartmouth-health-obesity-education/static/media/EatingDisorderChart.f7abb7613ae595303252.png",
     "static/media/DNAWithNumbersImage.png": "/dartmouth-health-obesity-education/static/media/DNAWithNumbersImage.3bc755fb9883431a06b1.png",
+    "static/media/PlateWithWords.png": "/dartmouth-health-obesity-education/static/media/PlateWithWords.1293f2f09e8c5a2a23ee.png",
     "static/media/NutritionTableImage.png": "/dartmouth-health-obesity-education/static/media/NutritionTableImage.55600597d850d950980e.png",
+    "static/media/PersonStrugglingMentally.png": "/dartmouth-health-obesity-education/static/media/PersonStrugglingMentally.18ea2835ebf1c2478348.png",
     "static/media/PillsImage.png": "/dartmouth-health-obesity-education/static/media/PillsImage.1d3ab3d17945a9340cc5.png",
     "static/media/MegaphoneImage.png": "/dartmouth-health-obesity-education/static/media/MegaphoneImage.5141210debe748b04ad0.png",
     "static/media/PatientNarrativesImage.png": "/dartmouth-health-obesity-education/static/media/PatientNarrativesImage.3f564de1e6f97b127f0c.png",
@@ -35,12 +39,12 @@
     "static/media/WeightLossTreatmentImage.png": "/dartmouth-health-obesity-education/static/media/WeightLossTreatmentImage.a7f647e83fdce910d44d.png",
     "static/media/ThinkingImage.png": "/dartmouth-health-obesity-education/static/media/ThinkingImage.9104f6bb5c503ef4179d.png",
     "index.html": "/dartmouth-health-obesity-education/index.html",
-    "main.93a5d1fb.css.map": "/dartmouth-health-obesity-education/static/css/main.93a5d1fb.css.map",
-    "main.980b6df8.js.map": "/dartmouth-health-obesity-education/static/js/main.980b6df8.js.map",
+    "main.018664e9.css.map": "/dartmouth-health-obesity-education/static/css/main.018664e9.css.map",
+    "main.ffdb8a14.js.map": "/dartmouth-health-obesity-education/static/js/main.ffdb8a14.js.map",
     "453.56ef0f56.chunk.js.map": "/dartmouth-health-obesity-education/static/js/453.56ef0f56.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.93a5d1fb.css",
-    "static/js/main.980b6df8.js"
+    "static/css/main.018664e9.css",
+    "static/js/main.ffdb8a14.js"
   ]
 }
