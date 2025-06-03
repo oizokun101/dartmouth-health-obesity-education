@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dartmouth-health-obesity-education/static/css/main.6d921368.css",
-    "main.js": "/dartmouth-health-obesity-education/static/js/main.f610a4a9.js",
+    "main.css": "/dartmouth-health-obesity-education/static/css/main.7cf616ff.css",
+    "main.js": "/dartmouth-health-obesity-education/static/js/main.326d2c62.js",
     "static/js/453.8a425bf3.chunk.js": "/dartmouth-health-obesity-education/static/js/453.8a425bf3.chunk.js",
     "static/media/SetPointTheory.mp4": "/dartmouth-health-obesity-education/static/media/SetPointTheory.1804d0881f482f4d4abb.mp4",
     "static/media/LandingImage.png": "/dartmouth-health-obesity-education/static/media/LandingImage.1ebe63a5a8209cf96e52.png",
@@ -12,9 +12,7 @@
     "static/media/FoodCheatSheet.png": "/dartmouth-health-obesity-education/static/media/FoodCheatSheet.ee9ee365ec6a7508dd90.png",
     "static/media/CausesOfObesityPageLandingImage.png": "/dartmouth-health-obesity-education/static/media/CausesOfObesityPageLandingImage.7b8b6ca58fb1226b5457.png",
     "static/media/ProcessedFoodGuideImage.png": "/dartmouth-health-obesity-education/static/media/ProcessedFoodGuideImage.06a4d8a9a4268c37a071.png",
-    "static/media/CausesOfObesityPageBottomImage.png": "/dartmouth-health-obesity-education/static/media/CausesOfObesityPageBottomImage.9f8f2f48eebf123f9745.png",
     "static/media/MacronutrientsTable.png": "/dartmouth-health-obesity-education/static/media/MacronutrientsTable.8e972a788420c98324e4.png",
-    "static/media/DiscussionQuestionsImage.png": "/dartmouth-health-obesity-education/static/media/DiscussionQuestionsImage.fb01bc2a047e08269ef4.png",
     "static/media/BPD_DS.png": "/dartmouth-health-obesity-education/static/media/BPD_DS.d389f301f3adcd1217dc.png",
     "static/media/SurgeryCare.png": "/dartmouth-health-obesity-education/static/media/SurgeryCare.5d67ba5decf6e90faa96.png",
     "static/media/MythVsReality.png": "/dartmouth-health-obesity-education/static/media/MythVsReality.1ca5af49fb29545c9d97.png",
@@ -51,12 +49,12 @@
     "static/media/WeightLossMechanisms.png": "/dartmouth-health-obesity-education/static/media/WeightLossMechanisms.0fe5443c416f3b0fe930.png",
     "static/media/ThinkingImage.png": "/dartmouth-health-obesity-education/static/media/ThinkingImage.9104f6bb5c503ef4179d.png",
     "index.html": "/dartmouth-health-obesity-education/index.html",
-    "main.6d921368.css.map": "/dartmouth-health-obesity-education/static/css/main.6d921368.css.map",
-    "main.f610a4a9.js.map": "/dartmouth-health-obesity-education/static/js/main.f610a4a9.js.map",
+    "main.7cf616ff.css.map": "/dartmouth-health-obesity-education/static/css/main.7cf616ff.css.map",
+    "main.326d2c62.js.map": "/dartmouth-health-obesity-education/static/js/main.326d2c62.js.map",
     "453.8a425bf3.chunk.js.map": "/dartmouth-health-obesity-education/static/js/453.8a425bf3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d921368.css",
-    "static/js/main.f610a4a9.js"
+    "static/css/main.7cf616ff.css",
+    "static/js/main.326d2c62.js"
   ]
 }
