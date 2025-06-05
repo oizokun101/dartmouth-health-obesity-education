@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/dartmouth-health-obesity-education/static/css/main.a71098ee.css",
-    "main.js": "/dartmouth-health-obesity-education/static/js/main.f2314f23.js",
+    "main.js": "/dartmouth-health-obesity-education/static/js/main.28fd81da.js",
     "static/js/453.8a425bf3.chunk.js": "/dartmouth-health-obesity-education/static/js/453.8a425bf3.chunk.js",
     "static/media/SetPointTheory.mp4": "/dartmouth-health-obesity-education/static/media/SetPointTheory.1804d0881f482f4d4abb.mp4",
     "static/media/LandingImage.png": "/dartmouth-health-obesity-education/static/media/LandingImage.1ebe63a5a8209cf96e52.png",
     "static/media/WeightLossTreatmentLandingImage.png": "/dartmouth-health-obesity-education/static/media/WeightLossTreatmentLandingImage.2220f6b7b96f1b441133.png",
     "static/media/HealthScreeningsLandingImage.png": "/dartmouth-health-obesity-education/static/media/HealthScreeningsLandingImage.c50d5b546fda9930af9e.png",
+    "static/media/SetPointTheoryTwo.mp4": "/dartmouth-health-obesity-education/static/media/SetPointTheoryTwo.85283dca8f45e6fd2925.mp4",
     "static/media/NutritionTableTwoImage.png": "/dartmouth-health-obesity-education/static/media/NutritionTableTwoImage.3e656076b8e3a5f4564f.png",
     "static/media/WeightLossMedications.png": "/dartmouth-health-obesity-education/static/media/WeightLossMedications.f3a56ca06ad94bac54d0.png",
     "static/media/SmoothieImage.png": "/dartmouth-health-obesity-education/static/media/SmoothieImage.b8d9b5676e9b247fd596.png",
@@ -62,11 +63,11 @@
     "static/media/ThinkingImage.png": "/dartmouth-health-obesity-education/static/media/ThinkingImage.9104f6bb5c503ef4179d.png",
     "index.html": "/dartmouth-health-obesity-education/index.html",
     "main.a71098ee.css.map": "/dartmouth-health-obesity-education/static/css/main.a71098ee.css.map",
-    "main.f2314f23.js.map": "/dartmouth-health-obesity-education/static/js/main.f2314f23.js.map",
+    "main.28fd81da.js.map": "/dartmouth-health-obesity-education/static/js/main.28fd81da.js.map",
     "453.8a425bf3.chunk.js.map": "/dartmouth-health-obesity-education/static/js/453.8a425bf3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a71098ee.css",
-    "static/js/main.f2314f23.js"
+    "static/js/main.28fd81da.js"
   ]
 }
