@@ -18,10 +18,9 @@ Complete Pages:
 
 * Health Screenings – Emphasis on the importance of preventive health checks
 
+* Patient Stories - Real stories on navigating weight-related care, highlighting key challenges and the need for patient-centered support.
 
 Incomplete Pages:
-
-* Patient Stories
 
 * Resources
 
