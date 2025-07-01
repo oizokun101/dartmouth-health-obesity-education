@@ -1,0 +1,571 @@
+.HealthScreenings {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+}
+
+.HSSectionOne {
+  background-color: #004240;
+  display: flex;
+  justify-content: row-reverse;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  max-height: 47vw;
+  overflow: hidden;
+}
+
+.HSSectionOneRight {
+  width: 60%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 0;
+}
+
+.HSSectionOneLeft {
+  width: 40%;
+  box-sizing: border-box;
+  margin-left: 8.5rem;
+}
+
+.HSSectionOneHeader {
+  font-size: 3rem;
+  color: white;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  margin-top: 7.5rem;
+}
+
+.HSSectionOneParagraph {
+  font-size: 1.25rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  color: #d6fffe;
+  margin-bottom: 4rem;
+}
+
+.HealthScreeningsLandingImage {
+  margin-top: 15rem;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
+.HSSectionTwo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.HSSectionTwoHeader {
+  font-size: 1.75rem;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  margin: 7.5rem auto 3rem auto;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.HSSectionTwoContent {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  flex-direction: row;
+  gap: 5rem;
+  position: relative;
+  min-height: 18rem;
+  margin-top: 4rem;
+}
+
+.HSStressContentGroup {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.HSStressContentFooters {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  font-size: 1rem;
+  height: auto;
+  margin-top: auto;
+  position: relative;
+  bottom: 0;
+}
+
+.DoctorIcon,
+.AppointmentBook,
+.HeartRate {
+  margin-bottom: 2.5rem;
+  height: 4.5rem;
+  object-fit: contain;
+}
+
+.HSSectionThree {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 75rem;
+  margin: 4rem auto;
+  gap: 5rem;
+}
+
+.HSSectionThreeHeader {
+  font-size: 1.9rem;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  margin-bottom: 3rem;
+  text-align: left;
+}
+
+.HSSectionThreeHeaderRight {
+  font-size: 1.9rem;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  margin-bottom: 3rem;
+  text-align: left;
+  margin-left: 2.5rem;
+}
+
+.HSSectionThreeParagraph {
+  font-size: 1.125rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  margin-top: 3rem;
+  text-align: left;
+}
+
+.HSSectionThreeLeft {
+  flex: 1;
+  max-width: 50%;
+}
+
+.HSSectionThreeRight {
+  flex: 1;
+  max-width: 50%;
+}
+
+.HSSectionFourHeader {
+  font-size: 2.5rem;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  text-align: left;
+}
+
+.HSSectionFourSubHeader {
+  font-size: 1.25rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  margin-top: 3rem;
+  text-align: left;
+}
+
+.HSSectionFourContentHeader {
+  font-size: 1.125rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.HSSectionFour {
+  display: flex;
+  flex-direction: column;
+  min-width: 75rem;
+}
+
+.HSSectionFourContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.HSSectionFourList {
+  list-style-type: none;
+  padding-left: 0;
+  width: 100%;
+}
+
+.HSSectionFourList li {
+  position: relative;
+  margin-bottom: 1.75rem;
+  padding-left: 2rem;
+  display: flex;
+  align-items: flex-start;
+}
+
+.HSSectionFourList li:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.4rem;
+  background-color: #408f6f;
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 0.1rem;
+  transform: translateY(-10%);
+}
+
+.HSSectionFourListItem {
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
+  position: relative;
+  margin-left: 2rem;
+}
+
+.Cervix {
+  margin-right: 5rem;
+}
+
+.HSSectionFiveHeader {
+  font-size: 2rem;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  text-align: left;
+  margin-top: 5rem;
+}
+
+.HSSectionFiveSubHeader {
+  font-size: 1.25rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  text-align: left;
+}
+
+.HSSectionFiveContentHeader {
+  font-size: 1.5rem;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.HSSectionFive {
+  display: flex;
+  flex-direction: column;
+  min-width: 75rem;
+}
+
+.HSSectionFiveContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.HSSectionFiveLeft {
+  flex: 1;
+}
+
+.HSSectionFiveRight {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  margin-top: 3rem;
+}
+
+.HSSectionFiveList {
+  list-style-type: none;
+  padding-left: 0;
+  width: 100%;
+}
+
+.HSSectionFiveList li {
+  position: relative;
+  margin-bottom: 2.5rem;
+  padding-left: 2rem;
+  display: flex;
+  align-items: flex-start;
+}
+
+.HSSectionFiveList li:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.4rem;
+  background-color: #408f6f;
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 0.1rem;
+  transform: translateY(-10%);
+}
+
+.HSSectionFiveListItem {
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
+  position: relative;
+  margin-left: 2rem;
+}
+
+.MythVsReality {
+  margin-right: 5rem;
+}
+
+.HSSectionSix {
+  display: flex;
+  flex-direction: column;
+  min-width: 75rem;
+}
+
+.HSSectionSixHeader {
+  font-size: 1.5rem;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  margin-top: 5rem;
+  text-align: left;
+}
+
+.HSSectionSixSubHeader {
+  font-size: 1.25rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.HSSectionSixParagraph {
+  font-size: 1.25rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+@media screen and (max-width: 1250px) {
+  .HSSectionOne,
+  .HSSectionTwo,
+  .HSSectionThree,
+  .HSSectionFour,
+  .HSSectionFive,
+  .HSSectionSix {
+    width: 100%;
+    max-width: none;
+    min-width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+
+  .HSSectionOne {
+    max-height: none;
+    padding: 5rem 0;
+    width: 100%;
+    max-width: 90%;
+    justify-content: center;
+    max-width: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    height: 150vw;
+  }
+
+  .HSSectionTwo {
+    margin-top: 3rem;
+  }
+  .HSSectionThree {
+    margin: 0;
+  }
+  .HSSectionFour {
+    margin-top: 0;
+  }
+
+  .HSSectionThreeLeft,
+  .HSSectionThreeRight,
+  .HSSectionFourLeft,
+  .HSSectionFourRight,
+  .HSSectionFiveLeft,
+  .HSSectionFiveRight {
+    width: 100%;
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem auto;
+  }
+
+  .HSSectionOneLeft {
+    width: 100%;
+    max-width: 90%;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .HSSectionOneRight {
+    display: none;
+  }
+
+  .HSSectionThreeLeft {
+    margin-bottom: 0;
+    margin-top: -2rem;
+  }
+  .HSSectionThreeRight {
+    margin-top: -5rem;
+    margin-bottom: -2rem;
+  }
+  .HSSectionFourRight {
+    margin-top: -5rem;
+  }
+
+  .HSSectionTwoContent,
+  .HSSectionFourContent,
+  .HSSectionFiveContent {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .HSSectionTwoContent {
+    margin: 2rem auto;
+  }
+
+  .HSStressContentGroup {
+    width: 90%;
+    max-width: auto;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .HSSectionOneHeader,
+  .HSSectionOneParagraph,
+  .HSSectionTwoHeader,
+  .HSSectionThreeHeader,
+  .HSSectionThreeHeaderRight,
+  .HSSectionThreeParagraph,
+  .HSSectionFourHeader,
+  .HSSectionFourSubHeader,
+  .HSSectionFourContentHeader,
+  .HSSectionFiveHeader,
+  .HSSectionFiveSubHeader,
+  .HSSectionFiveContentHeader,
+  .HSSectionSixHeader,
+  .HSSectionSixSubHeader,
+  .HSSectionSixParagraph {
+    width: 100%;
+    max-width: 90%;
+    margin: 1rem auto;
+    text-align: center;
+    align-self: center;
+    display: block;
+    box-sizing: border-box;
+  }
+
+  .HSSectionOneHeader {
+    font-size: 2.5rem;
+  }
+
+  .HSSectionOneParagraph,
+  .HSSectionThreeParagraph,
+  .HSSectionFourSubHeader,
+  .HSSectionFourContentHeader,
+  .HSSectionFourListItem,
+  .HSSectionFiveSubHeader,
+  .HSSectionFiveListItem,
+  .HSSectionSixSubHeader,
+  .HSSectionSixParagraph {
+    font-size: 1rem;
+  }
+
+  .HSSectionTwoHeader,
+  .HSSectionThreeHeader,
+  .HSSectionThreeHeaderRight,
+  .HSSectionFourHeader,
+  .HSSectionFiveHeader {
+    font-size: 1.75rem;
+  }
+
+  .HSSectionTwoHeader {
+    margin-top: -1rem;
+  }
+  .HSSectionSixParagraph {
+    line-height: 1.5;
+  }
+  .HSSectionFourContentHeader,
+  .HSSectionFiveContentHeader {
+    margin-bottom: 1rem;
+  }
+
+  .ScreeningsChecklist,
+  .MythVsReality,
+  .DoctorIcon,
+  .AppointmentBook,
+  .HeartRate,
+  .Cervix {
+    display: block;
+    margin: 1rem auto;
+    max-width: 100%;
+    height: auto;
+    align-self: center;
+  }
+  .ScreeningsChecklist {
+    width: 60vw;
+  }
+  .VisitsTimeline {
+    width: 110vw;
+    height: auto;
+    display: block;
+    height: auto;
+    align-self: center;
+  }
+  .Cervix {
+    width: 80vw;
+  }
+  .HSSectionFourList,
+  .HSSectionFiveList {
+    width: 100%;
+    max-width: 90%;
+    padding-left: 0;
+    text-align: center;
+    align-self: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .HSSectionFourList li,
+  .HSSectionFiveList li {
+    text-align: left;
+    display: inline-block;
+    width: 100%;
+    max-width: 600px;
+  }
+  .HSSectionFourListItem,
+  .HSSectionFiveListItem {
+    margin-left: 1rem;
+  }
+
+  .HSSectionOneParagraph br,
+  .HSSectionTwoHeader br,
+  .HSStressContentFooters br,
+  .HSSectionThreeParagraph br,
+  .HSSectionSixParagraph br,
+  .HSSectionFourSubHeader br,
+  .HSSectionOneRight,
+  .HealthScreeningsLandingImage,
+  .HSSectionSixSubHeader br,
+  .HSSectionFiveListItem br {
+    display: none;
+  }
+
+  .HSSectionSix {
+    margin-bottom: 5rem;
+  }
+}

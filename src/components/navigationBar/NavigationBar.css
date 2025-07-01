@@ -1,0 +1,204 @@
+.NavigationBarContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  margin: 0 auto;
+  padding: 0.5rem;
+  margin-bottom: -8rem;
+  margin-top: 1.5rem;
+  border-radius: 0.5rem;
+  position: relative;
+  background-color: white;
+  z-index: 3;
+}
+
+.NavigationBarContent li {
+  list-style-type: none;
+}
+
+.NavigationBarLeft {
+  font-size: 1.5rem;
+  color: #004240;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.NavigationBarRight {
+  font-size: 0.9rem;
+  font-weight: 450;
+  font-family: "Roboto", sans-serif;
+  display: block;
+}
+
+.NavigationBarLinkItem {
+  text-decoration: none;
+  color: inherit;
+}
+
+.NavigationBarLinkList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7rem;
+  margin-right: 5vw;
+}
+
+.NavigationBarLinkDropdown {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: flex-start;
+}
+
+.DartmouthHealthLogo {
+  margin-right: 1rem;
+}
+
+.LogoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.LogoContainer a {
+  display: flex;
+  align-items: center;
+}
+
+.NavigationBarMenuIcon {
+  font-size: 2.5rem;
+  cursor: pointer;
+  display: none;
+  color: black;
+}
+
+.DropdownArrow {
+  display: inline-block;
+  width: 0.5rem;
+  height: 0.5rem;
+  border: solid #005350;
+  border-width: 0 0.1rem 0.1rem 0;
+  transform: rotate(45deg);
+  margin-left: 1rem;
+  margin-bottom: 0.2rem;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.DropdownArrow.Clicked {
+  transform: rotate(-135deg);
+  margin-bottom: -0.2rem;
+}
+
+.DropdownMenu {
+  position: absolute;
+  top: calc(100% + 0.5rem);
+  left: 0;
+  padding-left: 0;
+  box-sizing: border-box;
+  background-color: white;
+  border-radius: 0.5rem;
+  min-width: 13.5rem;
+  padding: 0.5rem;
+  z-index: 1;
+}
+
+.DropdownMenuItem {
+  text-decoration: none;
+  color: inherit;
+  font-size: 0.9rem;
+  font-family: "Roboto", sans-serif;
+  display: block;
+  padding: 0.5rem;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: left;
+  transition: background-color 0.2s ease;
+}
+
+.DropdownMenuItem:hover {
+  background-color: #e5f6f6;
+  width: 100%;
+}
+
+.DropdownToggle {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.DropdownToggle .NavigationBarLinkItem {
+  margin-left: 0.5rem;
+}
+
+@media screen and (max-width: 1250px) {
+  .NavigationBarMenuIcon {
+    display: block;
+    margin-right: 1rem;
+  }
+
+  .NavigationBarRight {
+    margin-top: 1rem;
+    display: none;
+  }
+
+  .NavigationBarLeft {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .NavigationBarRight.Clicked {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    padding-top: 1rem;
+    margin-top: 1rem;
+    border-top: 0.08rem solid;
+    border-color: black;
+    margin-right: -0.5rem;
+    margin-left: -0.5rem;
+    padding-left: 1.5rem;
+    width: calc(100% + 1rem);
+  }
+
+  .NavigationBarLinkItem.Health {
+    margin-left: -0.1rem;
+  }
+
+  .NavigationBarLinkList {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3rem;
+    width: 100%;
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  .NavigationBarLinkList li {
+    width: 100%;
+    padding-left: 1rem;
+    margin-left: 0;
+  }
+
+  .NavigationBarContent {
+    flex-direction: column;
+    align-items: flex-start;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+  }
+
+  .DropdownMenu {
+    text-align: left;
+  }
+
+  .DropdownMenu:hover {
+    background-color: white;
+  }
+}

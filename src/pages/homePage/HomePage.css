@@ -1,0 +1,398 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  height: 100%;
+}
+
+.HomePage {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  overflow-x: hidden;
+}
+
+.SectionOne {
+  background-color: #004240;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  max-height: 47vw;
+  margin-top: 0;
+  overflow-x: hidden;
+}
+
+.SectionOneRight {
+  width: 50%;
+  box-sizing: border-box;
+  margin-left: 8.5rem;
+}
+
+.SectionOneLeft {
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.LandingImage {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-height: 47vw;
+}
+
+.SectionOneHeader {
+  font-size: 3rem;
+  color: white;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  margin-top: 7.5rem;
+}
+
+.SectionOneParagraph {
+  font-size: 1.25rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  color: #d6fffe;
+  margin-bottom: 4rem;
+}
+
+.SectionOneButton {
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  font-size: 1.25rem;
+  color: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: #004240;
+  border: solid white;
+}
+
+.SectionTwoHeader {
+  font-size: 2rem;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.SectionTwoContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  gap: 5rem;
+}
+
+.Insight {
+  display: flex;
+}
+
+.InsightNumberBox {
+  width: 2.25rem;
+  height: 2.25rem;
+  min-height: 2.25rem;
+  min-width: 2.25rem;
+  background-color: #005350;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 2rem;
+  margin-top: 1rem;
+}
+
+.InsightHeader {
+  font-size: 1.5rem;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+}
+
+.InsightParagraph {
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  color: #004240;
+  font-weight: 250;
+}
+
+.SectionThree {
+  margin-top: 7.5rem;
+  margin-bottom: 10rem;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.SectionThreeHeader {
+  font-size: 3rem;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 2.5rem;
+}
+
+.SectionThreeSubHeader {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 250;
+  margin-bottom: 10rem;
+}
+
+.HealthTopics {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.HealthTopicsRowOne {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.HealthTopicsRowTwo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  margin-bottom: 5rem;
+}
+
+.HealthTopicBox {
+  width: 22rem;
+  height: 25rem;
+  box-shadow: 0 0.2rem 0.2rem rgba(0, 0, 0, 0.5);
+  border-radius: 0.5rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.HealthTopicImageBox {
+  width: 22rem;
+  height: 14.5rem;
+  border-top-right-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.HealthTopicHeader {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-left: 1.25rem;
+  margin-top: 1rem;
+}
+
+.HealthTopicParagraph {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.85rem;
+  font-weight: 200;
+  margin-left: 1.25rem;
+  height: 4rem;
+  margin-top: 0rem;
+}
+
+.LearnMoreButton {
+  position: absolute;
+  display: inline-flex;
+  cursor: pointer;
+  right: 2rem;
+  bottom: 1.15rem;
+}
+
+.LearnMoreText {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 200;
+  opacity: 0;
+  position: absolute;
+  transition: opacity 0.3s ease 0.15s;
+}
+
+.LearnMoreButton:hover .LearnMoreText {
+  opacity: 1;
+}
+
+.LearnMoreButton:not(:hover) .LearnMoreText {
+  opacity: 0;
+  transition: opacity 0s ease 0s;
+}
+
+.ArrowCircle {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 2rem;
+  transition: width 0.3s ease;
+  position: relative;
+}
+
+.LearnMoreButton:hover .ArrowCircle {
+  width: 6rem;
+  justify-content: space-between;
+  padding: 0 0.75rem;
+}
+
+.Arrow {
+  border: solid black;
+  border-width: 0 0.1rem 0.1rem 0;
+  padding: 0.3rem;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  margin-left: 0;
+  transition: margin 0.3s ease;
+}
+
+.LearnMoreButton:hover .Arrow {
+  margin-left: auto;
+}
+
+.Arrow::before {
+  content: "";
+  position: absolute;
+  width: 1.1rem;
+  left: -1rem;
+  height: 0.1rem;
+  background-color: black;
+  transform: rotate(45deg) translate(20%, -965%);
+  transform-origin: left center;
+}
+
+@media screen and (max-width: 1385px) {
+  .SectionOneParagraph {
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .SectionOneParagraph {
+    margin-bottom: 2rem;
+    font-size: 1rem;
+  }
+
+  .SectionOne {
+    height: 175vw;
+    flex-direction: column;
+    max-height: none;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .SectionOneButton {
+    font-size: 1rem;
+  }
+
+  .SectionOneHeader {
+    margin-top: 0;
+    font-size: 2.5rem;
+  }
+
+  .SectionTwoHeader,
+  .SectionThreeHeader {
+    font-size: 1.75rem;
+  }
+
+  .SectionTwoHeader {
+    margin-top: 2rem;
+  }
+  .SectionThreeSubHeader {
+    font-size: 1.125rem;
+  }
+
+  .SectionOneRight {
+    margin-top: 5rem;
+    width: 90%;
+    box-sizing: border-box;
+    margin-bottom: 5rem;
+    margin-left: 0rem;
+    text-align: center;
+  }
+
+  .SectionOneParagraph br {
+    display: none;
+  }
+
+  .LandingImage {
+    display: none;
+  }
+
+  .InsightParagraph br {
+    display: none;
+  }
+
+  .SectionThreeSubHeader br {
+    display: none;
+  }
+
+  .SectionTwoContent {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .MegaphoneImage {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    width: 25rem;
+  }
+
+  .Insight {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
+  }
+
+  .InsightNumberBox {
+    margin-top: 0rem;
+    margin-right: 0rem;
+  }
+
+  .SectionThree {
+    margin-top: 0rem;
+  }
+
+  .SectionThreeSubHeader {
+    margin-bottom: 4rem;
+  }
+
+  .HealthTopicsRowOne,
+  .HealthTopicsRowTwo {
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .SectionOneHeader br {
+    display: none;
+  }
+  .Insight {
+    margin-right: 0rem;
+    margin-left: 0rem;
+  }
+}
